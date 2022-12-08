@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.left-sidebar{
+    background-image: url('./images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+/* .right-sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+} */
+.grid{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 3rem;
+}
+.mid-container {
+    position: absolute;
+    width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    padding: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.step{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    padding: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.active{
+    background-color: #C0EEE4;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #C0EEE4;
+    border-radius: 50%;
+    padding: 5px;
+  
+}
+.info h2{
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+.info p{
+    color: gray;
+}
+form{
+    margin-top: 30px;
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+   margin-bottom: 10px;
+}
+.btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+.button {
+background-color: #344D67;
+padding: 10px 40px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+border-radius: 4px;
+color: white;
+font-size: 18px;
+font-weight: 600;
+border: 0;
+outline: none;
+cursor: pointer;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: .5rem;
+    margin-top: 50px;
+}
+.step3-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+    margin-top: 50px;
+}
+.step-3{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 5px;
+}
+.step-3 input{
+    width: inherit;
+}
+.step-3-card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.step-3-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 5px;
+}
+.card h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px ;
+}
+.form-box {
+    background: aliceblue;
+    padding: 20px;
+}
+.form-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
